@@ -1,0 +1,8 @@
+function dealWithDate(rowitem, colitem, firstDayOfMonth, daysOfCurrentMonth){
+  //判断当前日期 <  本月总天数 && > 0则显示，否则不显示。
+  return ((((rowitem * 7 + colitem) - firstDayOfMonth + 1) <= daysOfCurrentMonth) && ((rowitem * 7 + colitem) - firstDayOfMonth + 1) > 0) ? ((rowitem * 7 + colitem) - firstDayOfMonth + 1) : ''
+}
+
+module.exports = {
+  dealWithDate: dealWithDate
+}

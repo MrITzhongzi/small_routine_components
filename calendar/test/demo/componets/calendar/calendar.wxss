@@ -1,0 +1,80 @@
+.calendar-box {
+  background-color: #e8f0df;
+  padding: 6px;
+}
+
+.month-detail {
+  text-align: center;
+}
+
+.month-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  overflow: hidden;
+}
+
+.month-title {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.title-line {
+  display: flex;
+  align-content: center;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.current-date-box {
+  flex-grow: 1;
+}
+
+.dir-box {
+  width: 25px;
+}
+
+.dir-box image {
+  width: 15px;
+}
+
+.date-row {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.date-row > view {
+  height: 100%;
+  flex-basis: 1px;
+  flex-grow: 1;
+}
+
+.date-title {
+  color: #b3b5b2;
+}
+
+.date-column {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.date-cell-choose {
+  width: 30px;
+  height: 30px;
+  background: #63be00;
+  border-radius: 20px;
+  line-height: 30px;
+  font-size: 27rpx;
+  color: white;
+}
+
+.title-choose {
+  color: #63be00;
+}

@@ -1,0 +1,51 @@
+<wxs src="./calendar.wxs" module="datetools" />
+<view class="calendar-box">
+  <view class="month-detail">
+
+    <view class="month-title-box">
+      <view class="month-title">
+        <view class="dir-box" bindtap="preMonth" data-tag="1">
+          <image src="/image/left.png" mode="widthFix"></image>
+        </view>
+        <view class="current-date-box {{ titleChooseFlag == 1 ? 'title-choose' : '' }}" bindtap="setTitleDate" data-tag="1">{{startDate}}</view>
+        <view class="dir-box" bindtap="nextMonth" data-tag="1">
+          <image src="/image/right.png" mode="widthFix"></image>
+        </view>
+      </view>
+      <view class="title-line"> - </view>
+      <view class="month-title">
+        <view class="dir-box" bindtap="preMonth" data-tag="2">
+          <image src="/image/left.png" mode="widthFix"></image>
+        </view>
+        <view class="current-date-box {{ titleChooseFlag == 2 ? 'title-choose' : '' }}" bindtap="setTitleDate" data-tag="2">{{endDate}}</view>
+        <view class="dir-box" bindtap="nextMonth" data-tag="2">
+          <image src="/image/right.png" mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="date-row">
+      <view class="date-title">日</view>
+      <view class="date-title">一</view>
+      <view class="date-title">二</view>
+      <view class="date-title">三</view>
+      <view class="date-title">四</view>
+      <view class="date-title">五</view>
+      <view class="date-title">六</view>
+    </view>
+
+    <view class="date-row" wx:for="{{rows}}" wx:for-index="rowindex" wx:for-item="rowitem">
+      <view class="date-column" wx:for="{{columns}}" wx:for-index="colindex" wx:for-item="colitem">
+        <view class="{{ datetools.dealWithDate(rowitem, colitem, firstDayOfMonth, daysOfCurrentMonth) == currentDayOfMonth ? 'date-cell-choose' :  '' }}" wx:if="{{ datetools.dealWithDate(rowitem, colitem, firstDayOfMonth, daysOfCurrentMonth) != '' }}" bindtap="clickdate" data-current-day="{{datetools.dealWithDate(rowitem, colitem, firstDayOfMonth, daysOfCurrentMonth)}}">
+          {{ datetools.dealWithDate(rowitem, colitem, firstDayOfMonth, daysOfCurrentMonth) }}
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class="makesure-date">
+    <button bindtap="makesureDate">确定</button>
+  </view>
+</view>
+
+<!-- https://www.cnblogs.com/webwei2017/articles/7723703.html  -->

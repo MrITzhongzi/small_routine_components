@@ -1,0 +1,29 @@
+.calendar-box {
+
+}
+
+.month-detail {
+  text-align: center;
+}
+
+.date-row {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.date-row > view {
+  height: 100%;
+  flex-basis: 1px;
+  flex-grow: 1;
+}
+
+.date-title {
+  font-weight: bold;
+}
+
+.date-column {
+  
+}

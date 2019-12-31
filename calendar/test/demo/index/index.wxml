@@ -1,0 +1,3 @@
+
+<!-- receiveDate="{{'2019-11-19'}}"  -->
+  <calendar  bind:getcalendar="getCalendarDate" ></calendar>
