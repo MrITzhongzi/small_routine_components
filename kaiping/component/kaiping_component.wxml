@@ -1,0 +1,7 @@
+<view class="kaiping_box">
+  <image src="{{imagepath}}" mode="aspectFill"></image>
+  <view class="kaiping-header">
+    <view class="kaiping-btn" bindtap="skipAnimation">跳过 {{second}}s</view>
+    <!-- <view class="kaiping-second">{{second}}s</view> -->
+  </view>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "index/index",
+    "second/second"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "image/activity_close.png",
+        "selectedIconPath": "image/activity_open.png",
+        "pagePath": "index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "image/activity_close.png",
+        "selectedIconPath": "image/activity_open.png",
+        "pagePath": "second/second",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

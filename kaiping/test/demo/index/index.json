@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "kaiping-component": "/component/kaiping_component"
+  },
+  "navigationStyle": "custom"
+}

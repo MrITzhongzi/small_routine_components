@@ -8,8 +8,6 @@
 
 - 使用示例：
 
-
-
 ```
 <calendar receiveDate="{{'2019-11-19'}}"  bind:getcalendar="getCalendarDate" ></calendar>
 
@@ -21,3 +19,25 @@
 - 效果展示
   
     ![avatar](./calendar/xiaoguo.png)
+
+
+##### kaiping 小程序开屏动画
+
+- 参数 imagepath 显示图片的路径   second 倒计时的秒数  bind:hide 点击跳过动画或者倒计时时间到了回调函数
+
+
+- 使用示例：
+
+```html
+
+<kaiping-component wx:if="{{kaipingFlag}}" 
+imagepath="/image/image.png" 
+second="{{10}}" 
+bind:hide="onMyEvent"   ></kaiping-component>
+```
+> onMyEvent为父容器组件定义的函数
+
+- 效果展示
+
+![avatar](./kaiping/example.jpg)
+
