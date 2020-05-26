@@ -1,0 +1,14 @@
+<view class="drag-com-box"
+ bindtouchstart="start"
+ bindtouchmove="move"
+ bindtouchend="end"
+ bindtouchcancel="cancel"
+ style="left: {{position.x}}px;top: {{position.y}}px "
+ bindtap="jump"
+ >
+
+  <view class="iamge-box"> 
+    <image src="{{imageUrl}}" mode="widthFix"></image>
+  </view>
+  <view class="desc">{{name}}</view>
+</view>

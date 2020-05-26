@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "drag-component": "/component/drag_component"
+  }
+}

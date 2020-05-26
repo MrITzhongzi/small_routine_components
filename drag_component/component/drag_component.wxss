@@ -1,0 +1,26 @@
+ .drag-com-box {
+   width: 72px;
+   height: 72px;
+   box-sizing: border-box;
+   border-radius: 36px;
+   padding: 6px;
+   border: 1px solid #ccc;
+   text-align: center;
+   background: rgba(0,0,0,0.3);
+   position: fixed;
+   right: 0px;
+   bottom: 50px;
+   z-index: 20;
+ }
+ .iamge-box {
+   width: 100%;
+ }
+
+  .iamge-box image {
+    width: 60%;
+  }
+
+ .desc {
+   font-size: 11px;
+   color: white;
+ } 

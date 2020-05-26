@@ -41,3 +41,25 @@ bind:hide="onMyEvent"   ></kaiping-component>
 
 ![avatar](./kaiping/example.jpg)
 
+
+##### drag_component 小程序拖拽组件
+
+- 参数 imageUrl 显示的icon图片地址  jumpUrl 点击组件跳转的地址  name 组件下面显示的文字
+
+
+- 使用示例：
+
+```html
+
+<drag-component
+  imageUrl="/drag.png"
+  jumpUrl="/index/index"
+  name="我的组件"
+></drag-component>
+```
+
+
+- 效果展示
+
+![avatar](./drag_component/1.png)
+

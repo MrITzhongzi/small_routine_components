@@ -1,0 +1,9 @@
+<view>
+  这是首页
+</view>
+
+<drag-component
+  imageUrl="/drag.png"
+  jumpUrl="/index/index"
+  name="我的组件"
+></drag-component>
