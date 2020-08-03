@@ -1,0 +1,7 @@
+<view>
+  <view>省：{{province}}</view>
+  <view>市: {{city}}</view>
+  <view>区: {{county}}</view>
+  <view>详细地址：{{addressDetail}} </view>
+</view>
+<button bindtap="getAddress">获取地址</button>
