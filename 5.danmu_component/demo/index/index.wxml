@@ -1,0 +1,8 @@
+<danmu_component array_data="{{array}}"></danmu_component>
+
+<button bindtap="clickItem">点击弹出</button>
+<button bindtap="clickCancel">点击消失</button>
+
+<view class="content" animation="{{animationData}}" bindtransitionend='transitionend'
+        bindanimationiteration="animationiteration"
+        bindanimationend="animationend"> 弹出内容</view>

@@ -1,0 +1,15 @@
+
+<view class="danmu-box">
+
+  <view class="danmu-item"
+        bindtransitionend='transitionend'
+        bindanimationiteration="animationiteration"
+        bindanimationend="animationend">
+    <view class="danmu-image">
+      <image src="{{currentData.imageUrl}}" mode="widthFix"></image>
+    </view>
+    <view class="danmu-name">{{currentData.name}}*刚刚下单了，</view>
+    <view class="danmu-time">{{currentData.time}}分钟前</view>
+  </view>
+
+</view>
