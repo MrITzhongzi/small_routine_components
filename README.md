@@ -18,7 +18,7 @@
 
 - 效果展示
   
-    ![avatar](./calendar/xiaoguo.png)
+    ![avatar](./1.calendar/xiaoguo.png)
 
 
 ##### kaiping 小程序开屏动画
@@ -39,7 +39,7 @@ bind:hide="onMyEvent"   ></kaiping-component>
 
 - 效果展示
 
-![avatar](./kaiping/example.jpg)
+![avatar](./2.kaiping/example.jpg)
 
 
 ##### drag_component 小程序拖拽组件
@@ -61,14 +61,14 @@ bind:hide="onMyEvent"   ></kaiping-component>
 
 - 效果展示
 
-![avatar](./drag_component/1.png)
+![avatar](./3.drag_component/1.png)
 
 
 ##### 定为 小程序逆地址解析 把经纬度解析成真实的地址
 
 详见代码
 
-##### danmu_component
+##### danmu_component 小程序弹幕组件
 
 -  参数 array_data 是一个对象数组，每个对象包含 一个 imageUrl name 和 time
 
@@ -106,7 +106,7 @@ Page({
 
 - 效果展示
 
-![avatar](./danmu_component/1.png)
+![avatar](./5.danmu_component/1.png)
 
 - 使用建议
 
