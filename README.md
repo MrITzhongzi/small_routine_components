@@ -68,7 +68,7 @@ bind:hide="onMyEvent"   ></kaiping-component>
 
 详见代码
 
-##### danmu_component 小程序弹幕组件
+#### danmu_component 小程序弹幕组件
 
 -  参数 array_data 是一个对象数组，每个对象包含 一个 imageUrl name 和 time
 
@@ -112,3 +112,25 @@ Page({
 
 如果自己使用，建议后期可以传入位置，然后用代码控制 这个控件在页面上的位置。
 
+
+   
+#### create_qr_code 二维码生成组件
+
+-  参数 showData 二维码要展示的数据或者链接
+
+- 使用示例
+
+```html
+
+<qr_code showData="hahha"></qr_code>
+
+```
+
+
+- 效果展示
+
+![avatar](./6.create_qr_code/code.jpg)
+
+- 使用建议
+
+无

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "qr_code": "/component/create_qr_code/createQrCode"
+  },
+  "navigationBarTitleText": "升级公告"
+}
